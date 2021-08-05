@@ -3,7 +3,7 @@
 ### About
 For this exercise, have been provided with a raw dataset of FIX messages (If not just drop me an email). The data set, once extract should be about 1GB in size. Your task here is to first parse and ingest the messages into a suitable datastore. 
 
-Then once that has been completed, you then need to build a simple, yet performant (read-only) RESTful API on top of the FIX message data store. The API should allows users to make HTTP requests to your service, and then respond with the correct data for a given request.
+Then once that has been completed, you need to build a simple, yet performant (read-only) RESTful API on top of the FIX message data store. The API should allows users to make HTTP requests to your service, and then respond with the correct data for a given request.
 
 At the minimum, your service needs to implement the following API endpoints:
 * **/get_msg_by_seqno(int:seqno)**
